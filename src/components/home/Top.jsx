@@ -22,7 +22,7 @@ const Top = () => {
           </button>
         </div>
         <div className="flex items-center justify-center md:justify-end col-span-12 sm:col-span-5">
-          <img src={topbg} alt="" className="max-w-[100%]" />
+          <img src={topbg} alt="" loading="lazy" />
         </div>
       </div>
     </div>

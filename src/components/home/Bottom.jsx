@@ -19,7 +19,7 @@ const Bottom = () => {
           </p>
         </div>
         <div className="flex items-center justify-center sm:justify-end col-span-12 sm:col-span-5">
-          <img src={bottombg} alt="" />
+          <img src={bottombg} alt="" loading="lazy" />
         </div>
       </div>
     </div>

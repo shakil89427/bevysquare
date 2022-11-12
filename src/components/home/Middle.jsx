@@ -13,7 +13,7 @@ const Middle = () => {
         </h1>
         <div className="grid grid-cols-12 sm:gap-x-10 gap-y-20 sm:gap-y-0">
           <div className="flex items-center justify-center sm:justify-start col-span-12 sm:col-span-5">
-            <img src={middlebg} alt="" />
+            <img src={middlebg} alt="" loading="lazy" />
           </div>
           <div className="flex items-center justify-center text-center sm:text-start col-span-12 sm:col-span-7">
             <div className="flex flex-col items-center justify-center sm:items-start">
