@@ -7,6 +7,13 @@ module.exports = {
     container: {
       center: true,
       padding: ".5rem",
+      screens: {
+        sm: "600px",
+        md: "728px",
+        lg: "984px",
+        xl: "1240px",
+        "2xl": "1496px",
+      },
     },
     fontFamily: {
       sans: ["Poppins", ...defaultTheme.fontFamily.sans],
