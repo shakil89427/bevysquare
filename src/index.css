@@ -11,7 +11,10 @@
     @apply w-full px-2 mx-auto sm:max-w-[640px] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1280px] 2xl:max-w-[1400px];
   }
   .container {
-    @apply w-full px-2 mx-auto sm:max-w-[590px] md:max-w-[708px] lg:max-w-[964px] xl:max-w-[1210px] 2xl:max-w-[1320px];
+    @apply w-full px-2 mx-auto sm:max-w-[610px] md:max-w-[720px] lg:max-w-[970px] xl:max-w-[1200px] 2xl:max-w-[1360px];
+  }
+  .hometoppolygon {
+    clip-path: polygon(0 0, 100% 0, 100% 73%, 0% 100%);
   }
   .homemiddlepolygon {
     position: absolute;
@@ -19,6 +22,9 @@
     top: 0;
     left: 0;
     background: linear-gradient(to right, #0e0e0e, #4f4f4f);
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 66%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
+  }
+  .linearbg {
+    background: linear-gradient(45deg, #2b2b2b, black);
   }
 }
