@@ -15,7 +15,7 @@ const Navbar = () => {
           target="_blank"
           rel="noreferrer"
           style={{ letterSpacing: ".4px" }}
-          className="rounded-md w-44 h-11 text-lg bg-white text-black font-medium uppercase hidden lg:block hover:scale-105 duration-150"
+          className="hidden lg:flex items-center justify-center rounded-md w-44 h-11 text-lg bg-white text-black font-medium uppercase   hover:scale-105 duration-150"
         >
           Contact us
         </a>
