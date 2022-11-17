@@ -7,4 +7,18 @@
   .mainview {
     @apply min-h-[calc(100vh-56px)] sm:min-h-[calc(100vh-64px)] md:min-h-[calc(100vh-80px)];
   }
+  .navcontainer {
+    @apply w-full px-2 mx-auto sm:max-w-[640px] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1280px] 2xl:max-w-[1400px];
+  }
+  .container {
+    @apply w-full px-2 mx-auto sm:max-w-[590px] md:max-w-[708px] lg:max-w-[964px] xl:max-w-[1210px] 2xl:max-w-[1320px];
+  }
+  .homemiddlepolygon {
+    position: absolute;
+    inset: 0;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to right, #0e0e0e, #4f4f4f);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 66%);
+  }
 }

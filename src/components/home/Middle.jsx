@@ -1,36 +1,36 @@
-import middlebg from "../../assets/home/middlebg.svg";
+import middlebg from "../../assets/home/middlebg.png";
 
 const Middle = () => {
   return (
-    <div className="border-b border-gray-500 py-10 md:py-14 lg:py-20 bg-black text-white">
-      <div className="container">
-        <h1
-          style={{ lineHeight: "130%" }}
-          className="text-3xl lg:text-5xl xl:text-6xl font-semibold max-w-[20ch] text-center mx-auto mb-14"
-        >
-          Make The Right Move <br />
-          Social Move
-        </h1>
-        <div className="grid grid-cols-12 sm:gap-x-10 gap-y-20 sm:gap-y-0">
-          <div className="flex items-center justify-center sm:justify-start col-span-12 sm:col-span-5">
-            <img src={middlebg} alt="" loading="lazy" />
-          </div>
-          <div className="flex items-center justify-center text-center sm:text-start col-span-12 sm:col-span-7">
-            <div className="flex flex-col items-center justify-center sm:items-start">
-              <h4
-                style={{ lineHeight: "130%" }}
-                className="text-2xl lg:text-4xl xl:text-5xl font-bold max-w-[15ch]"
-              >
-                A New Gen Social Media Platform
-              </h4>
-              <p
-                style={{ lineHeight: "150%" }}
-                className="font-medium max-w-[30ch] text-sm sm:text-md lg:text-lg xl:text-xl mt-3 mb-5"
-              >
-                Post Images, Videos, Chat, Live, AR VR and much more...
-              </p>
-            </div>
-          </div>
+    <div className="relative">
+      <div className="homemiddlepolygon" />
+      <div className="grid grid-cols-1 sm:grid-cols-2 sm:gap-x-10 gap-y-12 sm:gap-y-0 container relative z-10 py-12 sm:py-16 md:py-28 lg:py-32 xl:py-36 2xl:py-40">
+        <div className="w-full">
+          <img
+            src={middlebg}
+            alt=""
+            loading="lazy"
+            className="w-full h-full object-cover object-center rounded-xl sm:rounded-2xl lg:rounded-3xl"
+          />
+        </div>
+        <div className=" bg-[#111111] border border-gray-800 rounded-xl sm:rounded-2xl lg:rounded-3xl text-white p-5 lg:p-10 xl:p-14 2xl:p-16">
+          <h4
+            style={{ lineHeight: "130%" }}
+            className="text-2xl lg:text-4xl xl:text-5xl font-bold max-w-[15ch]"
+          >
+            A New Gen Social Media Platform
+          </h4>
+          <p
+            style={{ lineHeight: "150%" }}
+            className="font-medium max-w-[35ch] text-sm md:text-md lg:text-lg xl:text-xl mt-5 mb-7"
+          >
+            Instantly Share Your Profile with Anyone by Tapping your Card on
+            their Phone. Other Users do not need a Card or an App to connect.
+            Make Unlimited Connections
+          </p>
+          <button className="border-2 w-full max-w-[200px] rounded-full py-2 lg:py-3 text-sm md:text-md lg:text-lg font-semibold uppercase">
+            Monetization
+          </button>
         </div>
       </div>
     </div>
