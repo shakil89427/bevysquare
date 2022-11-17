@@ -10,12 +10,15 @@ const Navbar = () => {
           alt=""
           className="w-44 sm:w-48 md:w-52 lg:w-56 xl:w-60"
         />
-        <button
-          style={{ letterSpacing: ".5px" }}
+        <a
+          href="mailto:contact@bevysquare.com"
+          target="_blank"
+          rel="noreferrer"
+          style={{ letterSpacing: ".4px" }}
           className="rounded-md w-44 h-11 text-lg bg-white text-black font-medium uppercase hidden lg:block hover:scale-105 duration-150"
         >
           Contact us
-        </button>
+        </a>
       </div>
     </div>
   );
