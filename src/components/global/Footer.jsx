@@ -8,8 +8,19 @@ import {
   AiFillLinkedin,
 } from "react-icons/ai";
 import { Link } from "react-router-dom";
+import { useMemo } from "react";
 
 const Footer = () => {
+  const paths = useMemo(() => {
+    return [
+      { title: "Home", to: "/" },
+      { title: "Ads", to: "/ads" },
+      { title: "Privacy", to: "/privacy" },
+      { title: "About", to: "/about" },
+      { title: "Terms", to: "/terms" },
+      { title: "Contact", to: "/contact" },
+    ];
+  }, []);
   return (
     <footer className=" bg-black text-white pt-20">
       <div className="container grid grid-cols-1 lg:grid-cols-3 gap-y-10 lg:gap-y-0 py-8 md:py-10 lg:py-12 xl:py-14 border-b border-gray-600">
@@ -35,24 +46,11 @@ const Footer = () => {
         </div>
         <div className="flex items-center justify-center">
           <div className="grid grid-cols-2 w-fit gap-x-10 gap-y-4 text-gray-400 font-medium md:text-lg lg:text-xl">
-            <Link to="/" className="hover:text-white">
-              Home
-            </Link>
-            <Link to="/" className="hover:text-white">
-              Ads
-            </Link>
-            <Link to="/" className="hover:text-white">
-              Privacy
-            </Link>
-            <Link to="/" className="hover:text-white">
-              About
-            </Link>
-            <Link to="/" className="hover:text-white">
-              Terms
-            </Link>
-            <Link to="/" className="hover:text-white">
-              Contact
-            </Link>
+            {paths.map((path) => (
+              <Link to={path.to} key={path.title} className="hover:text-white">
+                {path.title}
+              </Link>
+            ))}
           </div>
         </div>
         <div className="flex flex-col items-center justify-center">

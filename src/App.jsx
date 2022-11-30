@@ -6,14 +6,14 @@ import NotFound from "./pages/NotFound";
 
 function App() {
   return (
-    <>
+    <div className="fixed inset-0 top-0 left-0 overflow-y-auto">
       <Navbar />
       <Routes>
         <Route index element={<Home />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
-    </>
+    </div>
   );
 }
 

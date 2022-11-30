@@ -1,14 +1,24 @@
-import { useState, useEffect, useCallback } from "react";
+import { useLayoutEffect, useRef } from "react";
+import { useLocation, useNavigate } from "react-router-dom";
 import bevysquarewhite from "../../assets/bevysquarewhite.png";
 
 const Navbar = () => {
+  const navRef = useRef();
+  const navigate = useNavigate();
+  const { pathname } = useLocation();
+
+  useLayoutEffect(() => {
+    navRef.current && navRef.current.scrollIntoView();
+  }, [pathname]);
+
   return (
-    <div className="bg-black text-white">
-      <div className="h-12 sm:h-14 md:h-16 lg:h-20 flex items-center justify-between gap-5 navcontainer">
+    <div ref={navRef} className="bg-black text-white">
+      <div className="w-full h-[48px] sm:max-w-[640px] sm:h-[56px] md:max-w-[768px] md:h-[64px] lg:max-w-[1024px] lg:h-[80px] xl:max-w-[1280px] 2xl:max-w-[1400px] mx-auto px-2 flex items-center justify-between gap-5">
         <img
           src={bevysquarewhite}
           alt=""
-          className="w-44 sm:w-48 md:w-52 lg:w-56 xl:w-60"
+          className="w-44 sm:w-48 md:w-52 lg:w-56 xl:w-60 cursor-pointer"
+          onClick={() => navigate("/")}
         />
         <a
           href="mailto:contact@bevysquare.com"

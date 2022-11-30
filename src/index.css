@@ -4,14 +4,11 @@
 @tailwind utilities;
 
 @layer components {
-  .mainview {
-    @apply min-h-[calc(100vh-56px)] sm:min-h-[calc(100vh-64px)] md:min-h-[calc(100vh-80px)];
-  }
-  .navcontainer {
-    @apply w-full px-2 mx-auto sm:max-w-[640px] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1280px] 2xl:max-w-[1400px];
+  .fullview {
+    @apply h-[calc(100%-48px)] sm:h-[calc(100%-56px)] md:h-[calc(100%-64px)] lg:h-[calc(100%-80px)];
   }
   .container {
-    @apply w-full px-2 mx-auto sm:max-w-[610px] md:max-w-[720px] lg:max-w-[970px] xl:max-w-[1200px] 2xl:max-w-[1360px];
+    @apply w-full sm:max-w-[610px] md:max-w-[720px] lg:max-w-[970px] xl:max-w-[1200px] 2xl:max-w-[1360px] mx-auto px-2;
   }
   .hometoppolygon {
     clip-path: polygon(0 0, 100% 0, 100% 73%, 0% 100%);
