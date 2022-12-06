@@ -29,7 +29,7 @@ const ContactBar = () => {
             href={social.url}
             target="_blank"
             rel="noreferrer"
-            className="aspect-square w-20 lg:w-24 xl:w-28  text-5xl lg:text-6xl xl:text-7xl border-2 rounded-full flex items-center justify-center hover:scale-110 duration-150"
+            className="aspect-square w-20 lg:w-24 xl:w-28 text-5xl lg:text-6xl xl:text-7xl border-2 rounded-full flex items-center justify-center hover:scale-110 duration-150"
           >
             {social.component}
           </a>
