@@ -41,9 +41,9 @@ const Footer = () => {
             <img
               src={bevysquarewhite}
               alt=""
-              className="w-44 sm:w-48 md:w-44 lg:w-56 xl:w-60 mx-auto"
+              className="w-48 sm:w-52 md:w-56 lg:w-60 xl:w-64 mx-auto"
             />
-            <p className="w-fit mx-auto text-gray-200 font-medium text-sm lg:text-lg mt-1 mb-5">
+            <p className="w-fit mx-auto text-gray-200 font-medium text-sm lg:text-lg mt-2 mb-5">
               Social That Pays
             </p>
             <div className="grid grid-cols-3 xl:grid-cols-6 gap-x-2 gap-y-2 w-fit mx-auto text-2xl">
@@ -62,7 +62,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex items-center justify-center">
-          <div className="grid grid-cols-2 w-fit gap-x-10 gap-y-4 text-gray-400 font-medium md:text-lg lg:text-xl">
+          <div className="grid grid-cols-2 w-fit gap-x-12 gap-y-5 text-gray-400 lg:text-lg xl:text-xl">
             {paths.map((path) => (
               <Link to={path.to} key={path.title} className="hover:text-white">
                 {path.title}
