@@ -21,7 +21,7 @@ const Bottom = () => {
             >
               Instantly Share Your Profile with Anyone by Tapping your Card on
               their Phone. Other Users do not need a Card or an App to connect.
-              Make Unlimited Connections
+              Make Unlimited Connections.
             </p>
             <button className="border-2 w-52 bg-black rounded-full py-2 lg:py-3 text-sm md:text-md lg:text-lg font-semibold uppercase hover:bg-white hover:text-black duration-150 mb-3">
               Connect
