@@ -26,4 +26,4 @@ app.use("/api/message", require("./src/routes/message.route"));
 app.use(require("./src/helpers/routeCatcher"));
 app.use(require("./src/helpers/errorHandler"));
 
-httpServer.listen(port, () => console.log(`Server running on port ${port}`));
+httpServer.listen(port, () => console.log(`Server running on Port ${port}`));
