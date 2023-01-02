@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/4c89af04-da50-47af-ba70-268c93c36d31/AppServices/subscriptions/4c89af04-da50-47af-ba70-268c93c36d31/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/bevysquare",
+    "appService.deploySubpath": "."
+}
