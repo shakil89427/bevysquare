@@ -13,10 +13,7 @@ module.exports.getPost = joi.object({
 });
 
 module.exports.addPost = joi.object({
-  blob: joi
-    .array()
-    .items(joi.object({ blob: joi.any() }).required())
-    .required(),
+  blob: joi.array().items(joi.object({ blob: joi.any() }).required()),
   type: joi.string().required().lowercase().valid("image", "text"),
   description: joi.string().when("type", {
     is: joi.equal("text"),

@@ -164,12 +164,16 @@ module.exports.addPost = async (req, res, next) => {
       { username: 1, profileImageUrl: 1 }
     );
     if (!user) throw createError.NotFound("user not exist");
-    const promises = result.blob.map(({ blob }) => {
-      const data = Buffer.from(blob, "binary");
-      const file = { data, name: "image.png", type: "image/png" };
-      return uploadFile(file, "postblobs");
-    });
-    const urls = await Promise.all(promises);
+    let urls = [];
+    if (result?.blob?.length) {
+      const promises = result.blob.map(({ blob }) => {
+        const data = Buffer.from(blob, "binary");
+        const file = { data, name: "image.png", type: "image/png" };
+        return uploadFile(file, "postblobs");
+      });
+      const tempUrls = await Promise.all(promises);
+      urls = tempUrls;
+    }
     const postData = {
       userId: req.payload._id,
       username: user.username,
@@ -181,10 +185,10 @@ module.exports.addPost = async (req, res, next) => {
     if (result.description) {
       postData.description = result.description;
     }
-    if (result.type === "text") {
+    if (result.type === "text" && urls.length) {
       postData.textBackImage = urls[0];
     }
-    if (result.type === "image") {
+    if (result.type === "image" && urls.length) {
       postData.blob = urls.map((url) => ({ type: "image", url }));
     }
     if (result.groupId) {
