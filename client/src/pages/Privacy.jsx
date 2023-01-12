@@ -7,8 +7,8 @@ const Privacy = () => {
         <h1 className="text-3xl font-semibold">Privacy Policy</h1>
         <h4 className="text-xl md:text-2xl mb-14 mt-5 pr-5 text-gray-800">
           These policies describes the information we use and process to support
-          the Flytant app and ensure enriching experience for the users on our
-          platform.
+          the Bevysquare app and ensure enriching experience for the users on
+          our platform.
         </h4>
         <h4 className="text-xl md:text-2xl font-medium  text-gray-800 mt-32 mb-14">
           Data policy
@@ -199,27 +199,28 @@ const Privacy = () => {
           className="ml-10 mt-14 flex flex-col gap-10 lg:text-xl"
         >
           <li>
-            By using this platform, you agree that Flytant can use a set of
+            By using this platform, you agree that Bevysquare can use a set of
             APIs, SDKs, plugins, code, specifications, documentation,
             technology, and services (such as content) that enables others,
             including application developers and website operators, to retrieve
-            data from Flytant or provide data to us. We reserve the right to
+            data from Bevysquare or provide data to us. We reserve the right to
             change this policy at any time without notice, so please check it
-            regularly. Your continued use of the Flytant Platform constitutes
+            regularly. Your continued use of the Bevysquare Platform constitutes
             acceptance of any changes. You also agree to and are responsible for
-            ensuring that you comply with the Flytant Terms of Use and Flytant
-            Community Guidelines.
+            ensuring that you comply with the Bevysquare Terms of Use and
+            Bevysquare Community Guidelines.
           </li>
           <li>
-            We provide the Flytant Platform to support several types of apps and
-            services. First, we provide them to help members of our community
-            share their own content with apps or services. We also support apps
-            and services that help brands and advertisers understand and manage
-            their audience, develop their content strategy, and obtain digital
-            rights. Finally, we provide the Flytant Platform to help
-            broadcasters and publishers discover content, get digital rights to
-            media, and share media using web embeds. The Flytant platform is not
-            intended for other types of apps or services.
+            We provide the Bevysquare Platform to support several types of apps
+            and services. First, we provide them to help members of our
+            community share their own content with apps or services. We also
+            support apps and services that help brands and advertisers
+            understand and manage their audience, develop their content
+            strategy, and obtain digital rights. Finally, we provide the
+            Bevysquare Platform to help broadcasters and publishers discover
+            content, get digital rights to media, and share media using web
+            embeds. The Bevysquare platform is not intended for other types of
+            apps or services.
           </li>
           <li>
             By using this platform you also agree to the following terms of
@@ -227,7 +228,7 @@ const Privacy = () => {
             anyone. Be transparent about your identity and your app’s identity.
             Don’t use the platform for any app that constitutes, promotes or is
             used in connection with spyware, adware, or any other malicious
-            programs or code. Don’t store or cache Flytant login credentials.
+            programs or code. Don’t store or cache Bevysquare login credentials.
           </li>
           <li>
             You ensure that the app is stable and easily navigable. For example,
@@ -240,9 +241,9 @@ const Privacy = () => {
           </li>
           <li>
             Comply with any requirements or restrictions imposed on usage of
-            Flytant user photos and videos (“User Content”) by their respective
-            owners. You are solely responsible for making use of user content in
-            compliance with owners’ requirements or restrictions.
+            Bevysquare user photos and videos (“User Content”) by their
+            respective owners. You are solely responsible for making use of user
+            content in compliance with owners’ requirements or restrictions.
           </li>
           <li>
             Remove within 24 hours any user Content or other information that
@@ -258,9 +259,9 @@ const Privacy = () => {
           </li>
           <li>If you store or cache User Content, keep it up to date.</li>
           <li>
-            Don’t use the Flytant Platform to simply display User Content,
-            import or backup content, or manage Flytant relationships, without
-            our prior permission.
+            Don’t use the Bevysquare Platform to simply display User Content,
+            import or backup content, or manage Bevysquare relationships,
+            without our prior permission.
           </li>
           <li>
             Don’t participate in any “like”, “share”, “comment” or “follower”
@@ -278,14 +279,15 @@ const Privacy = () => {
           </li>
           <li>
             Ensure your comments are uniquely tailored for each person. Don’t
-            post unauthorized commercial communications or spam on Flytant
+            post unauthorized commercial communications or spam on Bevysquare
             Platform.
           </li>
           <li>
-            Respect the limits we’ve placed on Flytant functionality and the way
-            Flytant looks and functions. Don’t offer experiences that change it.
+            Respect the limits we’ve placed on Bevysquare functionality and the
+            way Bevysquare looks and functions. Don’t offer experiences that
+            change it.
           </li>
-          <li>Don’t attempt to build an ad network on Flytant.</li>
+          <li>Don’t attempt to build an ad network on Bevysquare.</li>
           <li>
             Don’t ask users to like, comment or share your post in return of
             money or any unauthorized manner.
@@ -311,20 +313,20 @@ const Privacy = () => {
           </li>
           <li>
             Don’t use an unreasonable amount of bandwidth, or adversely impact
-            the stability of Flytant servers or the behavior of other apps using
-            the Flytant Platform.
+            the stability of Bevysquare servers or the behavior of other apps
+            using the Bevysquare Platform.
           </li>
           <li>
-            Don’t reverse engineer the Flytant apps source code or APIs or any
-            of Flytant’s apps.
+            Don’t reverse engineer the Bevysquare apps source code or APIs or
+            any of Bevysquare’s apps.
           </li>
           <li>
             Don’t attempt to identify groups of individuals or create
             demographic clusters for the purpose of contacting or targeting
-            Flytant members on or off Flytant.
+            Bevysquare members on or off Bevysquare.
           </li>
           <li>
-            Don’t sell, lease, or sublicense the Flytant Platform or any data
+            Don’t sell, lease, or sublicense the Bevysquare Platform or any data
             derived through the Platform.
           </li>
           <li>
@@ -337,12 +339,12 @@ const Privacy = () => {
             Don’t post anyone’s copyrighted pictures, videos or other contents
             that you don’t have rights upon. In that case seek permission from
             that creator and only if he/she agrees then post their content on
-            Flytant platform.
+            Bevysquare platform.
           </li>
           <li>
             Make sure that you comply with all terms and conditions of the
-            Flytant platform else severe steps like legal action, account ban,
-            may take place.
+            Bevysquare platform else severe steps like legal action, account
+            ban, may take place.
           </li>
           <li>
             All your posts must not include any logos, watermarks,
@@ -355,8 +357,9 @@ const Privacy = () => {
             to an experience that enhances the post.
           </li>
           <li>
-            Flytant may put a limit or block accounts that make a large number
-            of posts that are not primarily in response to direct user actions.
+            Bevysquare may put a limit or block accounts that make a large
+            number of posts that are not primarily in response to direct user
+            actions.
           </li>
           <li>
             Apart from our policies you must follow these policies too –
@@ -392,38 +395,38 @@ const Privacy = () => {
           </li>
           <li>
             Enforcement is both automated and manual, and can include disabling
-            your account, restricting you and your app’s access to Flytant
+            your account, restricting you and your app’s access to Bevysquare
             Platform, requiring that you delete data, terminating our agreements
             with you or any other action that we deem appropriate.
           </li>
           <li>
             Flytan may change, suspend, or discontinue the availability of any
-            Flytant Platform at any time. In addition, Flytant may impose limits
-            on certain features and services or restrict your access to parts or
-            all of the Flytant APIs or the Flytant website without notice or
-            liability.
+            Bevysquare Platform at any time. In addition, Bevysquare may impose
+            limits on certain features and services or restrict your access to
+            parts or all of the Bevysquare APIs or the Bevysquare website
+            without notice or liability.
           </li>
           <li>
-            If Flytant elects to provide you with support or modifications for
-            the Flytant Platform, this support may be terminated at any time
-            without notice to you. • Flytant reserves the right to charge the
-            prices it pays to users for their post and any changes can be made
-            to it without any prior notice . • Flytant doesn’t guarantee that
-            the Flytant Platform is free of inaccuracies, errors, bugs, or
-            interruptions, or is reliable, accurate, complete, or otherwise
-            valid. • You represent and warrant that you own or have secured all
-            rights necessary to display, distribute and deliver all content in
-            your app or website. To the extent your users are able to share
-            content from your app or website on or through Flytant, you
+            If Bevysquare elects to provide you with support or modifications
+            for the Bevysquare Platform, this support may be terminated at any
+            time without notice to you. • Bevysquare reserves the right to
+            charge the prices it pays to users for their post and any changes
+            can be made to it without any prior notice . • Bevysquare doesn’t
+            guarantee that the Bevysquare Platform is free of inaccuracies,
+            errors, bugs, or interruptions, or is reliable, accurate, complete,
+            or otherwise valid. • You represent and warrant that you own or have
+            secured all rights necessary to display, distribute and deliver all
+            content in your app or website. To the extent your users are able to
+            share content from your app or website on or through Bevysquare, you
             represent and warrant that you own or have secured all necessary
-            rights for them to do so in accordance with Flytant’s available
+            rights for them to do so in accordance with Bevysquare’s available
             functionality.
           </li>
           <li>
-            Flytant primarily communicates with creators through email. Please
-            ensure that the email addresses associated with your Flytant account
-            are current and correct and that you don’t filter out these
-            messages.
+            Bevysquare primarily communicates with creators through email.
+            Please ensure that the email addresses associated with your
+            Bevysquare account are current and correct and that you don’t filter
+            out these messages.
           </li>
           <li>
             You represent and warrant that you satisfy all licensing, reporting,
@@ -432,13 +435,14 @@ const Privacy = () => {
           </li>
           <li>
             You give us all rights necessary to enable your app to work with
-            Flytant, including the right to incorporate information you provide
-            to us into other parts of Flytant, and the right to attribute the
-            source of information using your name and logos.
+            Bevysquare, including the right to incorporate information you
+            provide to us into other parts of Bevysquare, and the right to
+            attribute the source of information using your name and logos.
           </li>
           <li>
             You also give as all rights to use the content posted by you on
-            Flytant and Flytant can use this wherever and whenever required.
+            Bevysquare and Bevysquare can use this wherever and whenever
+            required.
           </li>
           <li>
             You are responsible for restricting access to your content in
@@ -457,64 +461,65 @@ const Privacy = () => {
             deemed part of your app.
           </li>
           <li>
-            Disclaimer of Any Warranty: Flytant Platform and all data derived
+            Disclaimer of Any Warranty: Bevysquare Platform and all data derived
             through such Platform are provided “as is” with no warranty, express
             or implied, of any kind and Instagram expressly disclaims any and
             all warranties and conditions, including but not limited to, any
             implied warranty of merchantability, fitness for a particular
             purpose, availability, security, title and non-infringement. You are
             solely responsible for any damage that results from the use of any
-            Flytant Platform and all any data derived through such Platform
+            Bevysquare Platform and all any data derived through such Platform
             including, but not limited to, any damage to your computer system or
             loss of data.
           </li>
           <li>
-            Limitation of Liability: Flytant shall not, under any circumstances,
-            be liable to you for any indirect, incidental, consequential,
-            special or exemplary damages arising out of or in connection with
-            use of the Flytant Platform and any data derived through such
-            Platform, whether based on breach of contract, breach of warranty,
-            tort (including negligence, product liability or otherwise), or any
-            other pecuniary loss, whether or not Flytant has been advised of the
-            possibility of such damages. Under no circumstances shall Flytant be
-            liable to you for any amount.
+            Limitation of Liability: Bevysquare shall not, under any
+            circumstances, be liable to you for any indirect, incidental,
+            consequential, special or exemplary damages arising out of or in
+            connection with use of the Bevysquare Platform and any data derived
+            through such Platform, whether based on breach of contract, breach
+            of warranty, tort (including negligence, product liability or
+            otherwise), or any other pecuniary loss, whether or not Bevysquare
+            has been advised of the possibility of such damages. Under no
+            circumstances shall Bevysquare be liable to you for any amount.
           </li>
           <li>
             Release and Waiver: To the maximum extent permitted by applicable
-            law, you hereby release and waive all claims against Flytant, and
+            law, you hereby release and waive all claims against Bevysquare, and
             its subsidiaries, affiliates, officers, agents, licensors,
             co-branders or other partners, and employees from any and all
             liability for claims, damages (actual and/or consequential), costs
             and expenses (including litigation costs and attorneys’ fees) of
             every kind and nature, arising from or in any way related to your
-            use of the Flytant Platform and data derived through such Platform.
+            use of the Bevysquare Platform and data derived through such
+            Platform.
           </li>
           <li>
             Hold Harmless and Indemnify: To the maximum extent permitted by
-            applicable law, you agree to hold harmless and indemnify Flytant and
-            its subsidiaries, affiliates, officers, agents, licensors,
+            applicable law, you agree to hold harmless and indemnify Bevysquare
+            and its subsidiaries, affiliates, officers, agents, licensors,
             co-branders or other partners, and employees from and against any
             third-party claim arising from or in any way related to your use of
-            the Flytant Platform and any data derived through the Platform,
+            the Bevysquare Platform and any data derived through the Platform,
             including any liability or expense arising from all claims, losses,
             damages (actual and/or consequential), suits, judgments, litigation
-            costs and attorneys’ fees, of every kind and nature. Flytant shall
-            use good faith efforts to provide you with written notice of such
-            claim, suit or action.
+            costs and attorneys’ fees, of every kind and nature. Bevysquare
+            shall use good faith efforts to provide you with written notice of
+            such claim, suit or action.
           </li>
           <li>
             Relationship of the Parties: Notwithstanding any provision hereof,
-            for all purposes of the Flytant Platform Terms, you and Flytant
-            shall be and act independently and not as partner, joint venturer,
-            agent, employee or employer of the other. You don’t have any
-            authority to assume or create any obligation for or on behalf of
-            Flytant, express or implied, and you must not attempt to bind
+            for all purposes of the Bevysquare Platform Terms, you and
+            Bevysquare shall be and act independently and not as partner, joint
+            venturer, agent, employee or employer of the other. You don’t have
+            any authority to assume or create any obligation for or on behalf of
+            Bevysquare, express or implied, and you must not attempt to bind
             Instagram to any contract. • Also note that User Content is owned by
-            users and not by Flytant. All rights not expressly granted to you
-            are reserved by Flytant.
+            users and not by Bevysquare. All rights not expressly granted to you
+            are reserved by Bevysquare.
           </li>
           <li>
-            Invalidity of Specific Terms: If any provision of the Flytant
+            Invalidity of Specific Terms: If any provision of the Bevysquare
             Platform Terms is found by a court of competent jurisdiction to be
             invalid, the parties nevertheless agree that the court should
             endeavor to give effect to the parties’ intentions as reflected in
@@ -522,9 +527,9 @@ const Privacy = () => {
             effect.
           </li>
           <li>
-            No Waiver of Rights by Flytant: Flytant’s failure to exercise or
-            enforce any right or provision of the Flytant Platform Terms shall
-            not constitute a waiver of such right or provision.
+            No Waiver of Rights by Bevysquare: Bevysquare’s failure to exercise
+            or enforce any right or provision of the Bevysquare Platform Terms
+            shall not constitute a waiver of such right or provision.
           </li>
         </div>
       </div>

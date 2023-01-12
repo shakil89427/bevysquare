@@ -6,19 +6,21 @@ const Terms = () => {
       <div className="max-w-[1000px] mx-auto px-5 my-32">
         <h1 className="text-3xl font-semibold">Terms Of Use</h1>
         <h4 className="text-xl md:text-2xl my-14 pr-5 text-gray-800">
-          These Terms of Use govern your use of Flytant and provide information
-          about the Flytant Service, outlined below. When you create a Flytant
-          account or use Flytant, you agree to these terms of use.
+          These Terms of Use govern your use of Bevysquare and provide
+          information about the Bevysquare Service, outlined below. When you
+          create a Bevysquare account or use Bevysquare, you agree to these
+          terms of use.
         </h4>
         <div
           style={{ lineHeight: "200%" }}
           className="mx-10 flex lg:text-xl flex-col gap-10"
         >
           <li>
-            We use data from Flytant app and other Flytant Company Products, as
-            well as from third-party partners, to show you ads, offers, and
-            other sponsored content that we believe will be meaningful to you.
-            And we try to make that content as relevant as possible to you.
+            We use data from Bevysquare app and other Bevysquare Company
+            Products, as well as from third-party partners, to show you ads,
+            offers, and other sponsored content that we believe will be
+            meaningful to you. And we try to make that content as relevant as
+            possible to you.
           </li>
           <li>
             Research and innovation – We use the information we have to study
@@ -30,7 +32,7 @@ const Terms = () => {
             our global Service, we must store and transfer data across our
             systems around the world, including outside of your country of
             residence. Try your luck with This infrastructure may or may not be
-            owned or operated by Flytant Developers Pvt. Ltd. or their
+            owned or operated by Bevysquare Developers Pvt. Ltd. or their
             affiliates.
           </li>
           <li>
@@ -52,8 +54,8 @@ const Terms = () => {
             about, and use that information to help you create, find, join, and
             share in experiences that matter to you. Part of that is
             highlighting content, features, offers, and accounts you might be
-            interested in, and offering ways for you to experience Flytant,
-            based on things you and others do on and off Flytant.
+            interested in, and offering ways for you to experience Bevysquare,
+            based on things you and others do on and off Bevysquare.
           </li>
           <li>
             Fostering a positive, inclusive, and safe environment – We develop
@@ -70,7 +72,7 @@ const Terms = () => {
             Your commitments – We require you to make the below commitments to
             us, in return for our commitment to provide the service. Who Can Use
             You must be at least 13 years old or the minimum legal age in your
-            country to use Flytant. You must not be prohibited from receiving
+            country to use Bevysquare. You must not be prohibited from receiving
             any aspect of our service under applicable laws or engaging in
             payments related services if you are on an applicable denied party
             listing. We must not have previously disabled your account for
@@ -79,7 +81,7 @@ const Terms = () => {
           </li>
           <li>
             You can’t impersonate others or provide inaccurate information. You
-            don’t have to disclose your identity on Flytant, but you must
+            don’t have to disclose your identity on Bevysquare, but you must
             provide us with accurate and up to date information (including
             registration information). Also, you may not impersonate someone you
             aren’t, and you can’t create an account for someone else unless you
@@ -91,8 +93,9 @@ const Terms = () => {
           </li>
           <li>
             You can’t violate (or help or encourage others to violate) these
-            Terms or our policies, including in particular the Flytant Community
-            Guidelines, Flytant Platform Policy, and Flytant Payment Guidelines.
+            Terms or our policies, including in particular the Bevysquare
+            Community Guidelines, Bevysquare Platform Policy, and Bevysquare
+            Payment Guidelines.
           </li>
           <li>
             We also use various social media platform’s API’s. Hence you must
@@ -153,10 +156,10 @@ const Terms = () => {
             profile picture, and information about your actions (such as likes)
             or relationships (such as follows) next to or in connection with
             accounts, ads, offers, and other sponsored content that you follow
-            or engage with that are displayed on Flytant Products, without any
-            compensation to you. For example, we may show that you liked a
+            or engage with that are displayed on Bevysquare Products, without
+            any compensation to you. For example, we may show that you liked a
             sponsored post created by a brand that has paid us to display its
-            ads on Flytant. As with actions on other content and followers of
+            ads on Bevysquare. As with actions on other content and followers of
             other accounts, actions on sponsored content and followers of
             sponsored accounts can be seen only by people who have permission to
             see that content or follow.
