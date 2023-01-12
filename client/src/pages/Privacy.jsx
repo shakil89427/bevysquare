@@ -400,11 +400,11 @@ const Privacy = () => {
             with you or any other action that we deem appropriate.
           </li>
           <li>
-            Flytan may change, suspend, or discontinue the availability of any
-            Bevysquare Platform at any time. In addition, Bevysquare may impose
-            limits on certain features and services or restrict your access to
-            parts or all of the Bevysquare APIs or the Bevysquare website
-            without notice or liability.
+            Bevysquare may change, suspend, or discontinue the availability of
+            any Bevysquare Platform at any time. In addition, Bevysquare may
+            impose limits on certain features and services or restrict your
+            access to parts or all of the Bevysquare APIs or the Bevysquare
+            website without notice or liability.
           </li>
           <li>
             If Bevysquare elects to provide you with support or modifications
